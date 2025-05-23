@@ -1,0 +1,80 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+  margin-top: 30px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.upload-options,
+.camera-options,
+.preview-section,
+.offline-queue-section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.camera-preview {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block; /* To center webcam */
+}
+
+.media-preview {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.offline-queue-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.offline-queue-section li {
+  background-color: #e9ecef;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  text-align: left;
+}
+
+p {
+  color: #666;
+}
